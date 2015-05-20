@@ -158,6 +158,27 @@ img {
   margin-top: 171px;
 }
 
+
+.description {
+
+  margin-left: 2em;
+  margin-top: 0.7em;
+}
+
+div.leftC  img
+
+{
+
+  margin-top: 2.2em;
+}
+
+div.rightC img
+
+{
+
+margin-top: 2.2em;
+
+}
 /*TYPOGRAPHy*/
 
 
@@ -176,6 +197,8 @@ h2 {
   color: #84899E;
   letter-spacing:0.07142857142857em;
   line-height: 1.5em;
+ margin-top: -0.4em;
+   margin-bottom: 2.2em;
 }
 
 
