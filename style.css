@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'minion-pro';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/MinionPro-R.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+}
+
+
+@font-face {
+  font-family: 'gt-w-r';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Gt-W-R.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+}
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*Clear fix*/
+.cf:after,
+.cf:before {
+  content: '';
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+
+
+/*SETTING UP THE GRID SYSTEM*/
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.unit {
+  float: left;
+  padding-left: 20.5px;
+  padding-right: 20.5px;
+}
+
+.size1of4 {
+
+  width: 25%;
+}
+
+
+.size2of4{
+
+  width: 50%;
+}
+
+.size3of4 {
+
+  width: 75%;
+}
+
+.size4of4 {
+
+  width: 100%;
+}
+
+.main-box {
+
+  width: 61.25em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tCenter {
+
+  text-align: center;
+}
+
+.smallerImg {
+
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+width: 2.5625em;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.topNav {
+
+  margin-top: 171px;
+}
+
+/*TYPOGRAPHy*/
+
+
+h1 {
+
+  font-family: "minion-pro";
+  font-size: 2.5em;
+  line-height: 1.375em;
+  color: #212121;
+}
+
+h2 {
+
+  font-family: "gt-w-r";
+  font-size: 0.875em;
+  color: #84899E;
+  letter-spacing:0.07142857142857em;
+  line-height: 1.5em;
+}
+
+
+h3 {
+
+  font-family: "gt-w-r";
+  font-size: 1.0625em;
+  color: #84899E;
+  line-height: 1em;
+}
+
+@media (max-width: 40em) {
+  
+.size2of4 {width: 100%}
+.main-box {width: 80%}
+
+
+}
