@@ -7,8 +7,13 @@
         <title>Untitled</title>
         <link rel="stylesheet" href="style.css">
         <link rel="author" href="humans.txt">
+
+
+<script type="text/javascript" src="retina.js"></script>
     </head>
     <body>
+
+
 
     	<div class="main-box">
           
@@ -51,7 +56,56 @@
                       
                   </div> 
                    <h3 class="description">Venice Boulevard, LA</h3>            
+                   
+                      <div class="smallerImg hide">
+                     <img src="img/11.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3>  
 
+                                                         <div class="smallerImg hide">
+                     <img src="img/13.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3>  
+
+
+                       <div class="hide">
+                     <img src="img/15.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3>  
+
+                                                         <div class="smallerImg hide">
+                     <img src="img/17.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3>  
+                   
+
+
+                                                         <div class="smallerImg hide">
+                     <img src="img/19.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                                                         <div class="smallerImg hide">
+                     <img src="img/21.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+                                                         <div class="smallerImg hide">
+                     <img src="img/23.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                                                                            <div class="smallerImg hide">
+                     <img src="img/25.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
 
                </div>
 
@@ -81,9 +135,59 @@
                   </div>  
                    <h3 class="description">Venice Boulevard, LA</h3>  
 
+                                      <div class="smallerImg hide">
+                     <img src="img/12.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3>  
 
 
+                                      <div class="smallerImg hide">
+                     <img src="img/14.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3>  
 
+                                                         <div class="smallerImg hide">
+                     <img src="img/16.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                                                         <div class="smallerImg hide">
+                     <img src="img/18.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                                                         <div class="smallerImg hide">
+                     <img src="img/20.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+                                                         <div class="smallerImg hide">
+                     <img src="img/22.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                                                                            <div class="hide">
+                     <img src="img/24.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                 <div class="smallerImg hide">
+                     <img src="img/26.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
+
+                                    <div class="smallerImg hide">
+                     <img src="img/28.jpg" alt="">
+                     
+                  </div>  
+                   <h3 class="description hide">Venice Boulevard, LA</h3> 
 
                </div>
 
@@ -93,7 +197,7 @@
           <div class="topNav">
             <div class="line cf">
                <div class="unit size4of4 tCenter">
-                 <a class="callToAction" href="">Load More Photos</a>
+                 <a class="callToAction" href="#" id="load">Load More Photos</a>
                </div>
             </div>
           </div>
@@ -131,7 +235,23 @@
 
 
     	</div>
-        
-<script type="text/javascript" src="retina.js"></script>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+            <script>
+$(function(){
+    $("div").slice(0, 10).show(); // select the first ten
+    $("#load").click(function(e){ // click event for load more
+        e.preventDefault();
+        $("div:hidden").slice(0, 20).show();
+        $("h3:hidden").slice(0, 20).show(); // select next 10 hidden divs and show them
+        if($("div:hidden").length == 0){ // check if any hidden divs still exist
+
+
+        }
+    });
+});
+      </script>
+
     </body>
 </html>
