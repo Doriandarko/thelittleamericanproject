@@ -150,20 +150,20 @@ margin-right: auto;
 
 .divisor {
 
-  height: 1.5px;
+  height: 2px;
   width: 100%;
   background-color: #D8D8D8;
 }
 
 .dTop {
 
-  margin-bottom:1.125em;
+  margin-bottom:1.3em;
 }
 
 
 .dBot {
 
-  margin-top: 1.125em;
+  margin-top: 3.2em;
 }
 
 
@@ -205,11 +205,40 @@ margin-top: 2.2em;
 }
 
 
+
+.firstF {
+   
+   margin-left: 4em;
+
+}
+
+
 .break {
 
   margin-right: 1em;
   margin-left: 1em;
 }
+
+
+.footer {
+
+  margin-top: 11.875em;
+}
+
+ul li {
+
+  float: left;
+  margin-left: 27px;
+ margin-top: -0.1815em;
+}
+
+ul li:first-child {
+
+  margin-left: 0em;
+  margin-right: 27.5em;
+}
+
+
 /*TYPOGRAPHy*/
 
 
