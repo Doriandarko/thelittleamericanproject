@@ -148,6 +148,23 @@ margin-right: auto;
 
 }
 
+.divisor {
+
+  height: 1.5px;
+  width: 100%;
+  background-color: #D8D8D8;
+}
+
+.dTop {
+
+  margin-bottom:1.125em;
+}
+
+.float {
+
+  float: left;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -158,6 +175,34 @@ img {
   margin-top: 171px;
 }
 
+
+.description {
+
+  margin-left: 2em;
+  margin-top: 0.7em;
+}
+
+div.leftC  img
+
+{
+
+  margin-top: 2.2em;
+}
+
+div.rightC img
+
+{
+
+margin-top: 2.2em;
+
+}
+
+
+.break {
+
+  margin-right: 1em;
+  margin-left: 1em;
+}
 /*TYPOGRAPHy*/
 
 
@@ -176,6 +221,8 @@ h2 {
   color: #84899E;
   letter-spacing:0.07142857142857em;
   line-height: 1.5em;
+ margin-top: -0.4em;
+   margin-bottom: 2.2em;
 }
 
 
@@ -185,6 +232,41 @@ h3 {
   font-size: 1.0625em;
   color: #84899E;
   line-height: 1em;
+}
+
+h4:after {
+    content: "\00a0";
+}
+
+
+h4 {
+
+font-family: "gt-w-r";
+font-size: 0.875em;
+color: #ADB6C3;
+line-height: 1em;
+
+}
+a.callToAction {
+   
+font-family: "gt-w-r";
+font-size: 1.5em;
+color: #212121;
+line-height: 1em;
+margin-left: auto;
+margin-right: auto;
+margin-top: 7em;
+display: block;
+
+}
+
+a.fLink {
+font-family: "gt-w-r";
+font-size: 0.875em;
+color: #ADB6C3;
+line-height: 1em;
+  text-decoration: none;
+
 }
 
 @media (max-width: 40em) {
