@@ -52,6 +52,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+
 }
 ol, ul {
   list-style: none;
@@ -234,16 +235,25 @@ ul li {
 
 ul li:first-child {
 
-  margin-left: 0em;
+  margin-left: -4.1em;
   margin-right: 27.5em;
 }
 
+.note {
 
+  width: 4.25em;
+  height: auto;
+    position: relative;
+  left: 15.5em;
+  top:-0.26em;
+}
 
 .hide {
 
   display: none;
 }
+
+
 
 /*TYPOGRAPHy*/
 
@@ -289,17 +299,28 @@ color: #ADB6C3;
 line-height: 1em;
 
 }
+
+a {
+  color: #212121;
+}
+
 a.callToAction {
    
 font-family: "gt-w-r";
 font-size: 1.5em;
-color: #212121;
+
 line-height: 1em;
 margin-left: auto;
 margin-right: auto;
 margin-top: 7em;
 display: block;
 
+}
+
+a.visited{
+
+  color: #D8D8D8;
+  text-decoration: none;
 }
 
 a.fLink {
